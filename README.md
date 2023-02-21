@@ -1,3 +1,11 @@
+## Disclaimer
+
+This library is a fork of [cubic-spline](https://www.npmjs.com/package/cubic-spline).
+The only intent of the fork is to get the library work in a browser out-of-the-box.
+A [pull request](https://github.com/morganherlocker/cubic-spline/pull/19) has been sent to upstream;
+if and when it is merged, you will perhaps prefer the upstream version.
+
+
 # cubic-spline
 
 A slight modification of [Ivan Kuckir's cubic spline implementation](http://blog.ivank.net/interpolation-with-cubic-splines.html), cubic-spline guesses the value of y for any x value on a line. This is helpful for smoothing line graphs.
