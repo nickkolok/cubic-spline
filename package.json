@@ -1,5 +1,5 @@
 {
-  "name": "cubic-spline",
+  "name": "cubic-spline-browserified",
   "version": "3.0.3",
   "description": "spline interpolation",
   "main": "index.js",
@@ -19,7 +19,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/morganherlocker/cubic-spline.git"
+    "url": "https://github.com/nickkolok/cubic-spline.git"
   },
   "keywords": [
     "cubic",
@@ -30,7 +30,7 @@
     "smoothing"
   ],
   "author": "morganherlocker",
-  "license": "MIT",
+  "license": "GPLv3",
   "bugs": {
     "url": "https://github.com/morganherlocker/cubic-spline/issues"
   },
