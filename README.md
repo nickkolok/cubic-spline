@@ -13,13 +13,13 @@ A slight modification of [Ivan Kuckir's cubic spline implementation](http://blog
 ## installation
 
 ```sh
-npm install cubic-spline
+npm install cubic-spline-browserified
 ```
 
 ## usage
 
 ```js
-const Spline = require('cubic-spline');
+const Spline = require('cubic-spline-browserified'); // Still works
 
 const xs = [1, 2, 3, 4, 5];
 const ys = [9, 3, 6, 2, 4];
@@ -35,6 +35,19 @@ for (let i = 0; i < 50; i++) {
   console.log(spline.at(i * 0.1));
 }
 ```
+
+or
+
+```html
+<script src="node_modules/cubic-spline-browserified/cubic-spline-for-browser.js"></script>
+<script>
+	const xs = [1, 2, 3, 4, 5];
+	const ys = [9, 3, 6, 2, 4];
+	const spline = new Spline(xs, ys);
+	// ...
+</script>
+```
+
 
 ## test
 
